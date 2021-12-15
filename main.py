@@ -15,6 +15,7 @@ def read_file():
     plt.gca().set_title('Zvukový signál')
 
     plt.tight_layout()
+    plt.show()
 
 
 if __name__ == '__main__':
