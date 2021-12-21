@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matpltlib.pyplot as plt
 import soundfile as sf
 import librosa
 import pandas
