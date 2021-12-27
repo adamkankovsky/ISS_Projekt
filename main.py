@@ -8,7 +8,7 @@ from scipy.signal import spectrogram, lfilter, freqz, tf2zpk
 
 
 def read_file():
-    s, fs = sf.read('xkanko00.wav')
+    s, fs = sf.read('audio/xkanko00.wav')
     size = s.size
     print("delka vstupniho souboru je", size, "hz")
     print("vzorkovaci frekvence je", fs, "hz")
